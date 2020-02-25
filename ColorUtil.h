@@ -30,7 +30,7 @@ namespace colorUtil {
         float blue;
     } rgbColorFloat;
 
-    void blend(rgbColorFloat *destC, rgbColorFloat *c1, rgbColorFloat *c2, float blendAmount);
+    void colorBlend(rgbColorFloat *destC, rgbColorFloat *c1, rgbColorFloat *c2, float blendAmount);
     rgbColorFloat toFloat(rgbColor *c);
     rgbColor quantize(rgbColorFloat *c);
     uint8_t quantize(float value);

@@ -9,7 +9,7 @@
 
 namespace colorUtil {
 
-    void blend(rgbColorFloat *destC, rgbColorFloat *c1, rgbColorFloat *c2, float blendAmount) {
+    void colorBlend(rgbColorFloat *destC, rgbColorFloat *c1, rgbColorFloat *c2, float blendAmount) {
         destC->red   = (c1->red * (1-blendAmount)) + (c2->red * blendAmount);
         destC->green = (c1->green * (1-blendAmount)) + (c2->green * blendAmount);
         destC->blue  = (c1->blue * (1-blendAmount)) + (c2->blue * blendAmount);
