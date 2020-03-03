@@ -15,7 +15,6 @@
 #include <stdint.h>
 #include <math.h>
 
-
 namespace colorUtil {
 
     typedef struct rgbColor {
@@ -36,6 +35,5 @@ namespace colorUtil {
     uint8_t quantize(float value);
 
 }
-
 
 #endif /* COLORUTIL_H_ */
